@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+//SETUP
+@import "./Styles/setup/functions";
+@import "./Styles/setup/mixins";
+@import "./Styles/setup/typography";
+@import "./Styles/setup/variables";
+@import "./Styles/setup/animations";
+@import "./Styles/setup/reset";
+
+//BASE
+@import "./Styles/basics/helpers";
+
+
+//ICONS
+
+
+//CMPS
+@import "./Styles/WelcomeCmp.scss";
+
+
+//PAGES
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.noty_buttons {
+  display: flex;
+  justify-content: space-around;
+  .btn-error {
+    background-color: #5cb85c;
+  }
+}
+
+.noty_body {
+  text-align: center;
+}
+
+.swal2-title {
+  font-size: 19px !important;
+}
+
+.swal2-styled.swal2-confirm {
+  font-size: 15px;
+  color: rgba(0, 0, 123, 0.4) !important;
+}

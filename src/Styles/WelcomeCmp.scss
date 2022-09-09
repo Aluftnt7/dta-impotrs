@@ -1,0 +1,17 @@
+.logo{
+    width: 85vw; //smaller
+    @include for-mobile-layout {
+        width: 70vw;
+    }
+    @include for-normal-layout {//biggest
+        width: 50vw;
+    }
+}
+
+.animate__animated.animate__slideInDown {
+    --animate-duration: 2.5s;
+  }
+
+  .animate__animated.animate__fadeIn{
+    --animate-duration: 5s;
+  }
